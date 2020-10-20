@@ -6,6 +6,8 @@
    padding-bottom: 70px;
    color: var(--global-text-color);
    background-color: var(--global-bg-color);
+   font-size: 1.3rem;
+
  }
 
  body.fixed-top-nav {
@@ -25,6 +27,8 @@
 // Profile
 .profile {
   padding-right: 20px;
+  padding-bottom: 0px;
+  margin-left: 0;
   img {
     width: 100%;
   }
@@ -32,6 +36,10 @@
 
 // TODO: redefine content layout.
 
+// article
+.article p {
+    font-size: 1.3rem;
+}
 
 /******************************************************************************
  * Publications

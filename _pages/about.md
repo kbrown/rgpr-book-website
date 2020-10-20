@@ -1,13 +1,13 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
 description: 
 navigation_weight: 1
 
 profile:
   align: left
-  image: BookCover.jpg
+  image: BookCoverMedium.jpg
   address: >
 
 news: false  # includes a list of news items

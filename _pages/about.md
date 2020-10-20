@@ -2,23 +2,18 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: 
+navigation_weight: 1
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: BookCover.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
+It is well established that the race and gender of elected representatives influence the ways in which they legislate, but surprisingly little research exists on how race and gender interact to affect who is elected and how they behave once in office. How do race and gender affect who gets elected, as well as who is represented? What issues do elected representatives prioritize? Does diversity in representation make a difference?
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Race, Gender, and Political Representation takes up the call to think about representation in the United States as intersectional, and it measures the extent to which political representation is simultaneously gendered and raced. Specifically, the book examines how race and gender interact to affect the election, behavior, and impact of all individuals. By putting women of color at the center of their analysis and re-evaluating traditional, "single-axis" approaches to studying the politics of race or gender, the authors demonstrate what an intersectional approach to identity politics can reveal. Drawing on original data on the presence, policy leadership, and policy impact of Black women and men, Latinas and Latinos, and White women and men in state legislative office in the late twentieth and early twenty-first centuries, each chapter shows how the politics of race, gender, and representation are far more complex than recurring "Year of the Woman" frameworks suggest. An array of race-gender similarities and differences are evident in the experiences, activities, and accomplishments of these state legislators. Yet one thing is clear: the representation of those marginalized by multiple, intersecting systems of power and inequality is intricately bound to the representation of women of color.

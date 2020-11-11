@@ -71,6 +71,18 @@ a, table.table a {
   }
 }
 
+// Authors
+
+.author {
+  margin-left: 0;
+  width: 30%;
+}
+
+@media (min-width: 576px) {
+  .author {
+    width: 30%;
+  }
+}
 
 // Navbar customization
 

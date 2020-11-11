@@ -1,5 +1,6 @@
 ---
 layout: about
+meny: about
 title: Home
 permalink: /
 description: 

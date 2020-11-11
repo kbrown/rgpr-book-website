@@ -63,7 +63,7 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # pagination:
 #   enabled: true
 
-# # Comments
+# # Comments  
 # disqus_shortname: al-folio # put your disqus shortname
 
 # -----------------------------------------------------------------------------
@@ -71,6 +71,10 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 
 collections:
+  authors:
+    output: true
+    permalink: /authors/:path/
+    sort_by: order
   news:
     defaults:
       layout: post

@@ -1,9 +1,11 @@
 ---
-layout: page
-permalink: /authors/
-title: authors
-description: authors
+layout: authors
+menu: authors
+permalink: authors/
+description: 
 navigation_weight: 2
----
 
-<img src="https://positiveresourceconnection.org/wp-content/uploads/2018/07/pardon-our-dust.jpg"/>
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
+---

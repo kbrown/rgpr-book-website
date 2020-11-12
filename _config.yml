@@ -75,6 +75,10 @@ collections:
     output: true
     permalink: /authors/:path/
     sort_by: order
+  chapters:
+    output: true
+    permalink: /chapters/:path/
+    sort_by: order
   media:
     output: true
     permalink: /media/:path/

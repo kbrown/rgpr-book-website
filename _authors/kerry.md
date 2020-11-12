@@ -3,7 +3,6 @@ title: <strong>Kerry Haynie</strong>
 menu: authors
 email: klhaynie@duke.edu
 more: http://people.duke.edu/~klhaynie/
-navigation_weight: 1
 order: 2
 
 profile:

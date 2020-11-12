@@ -3,7 +3,6 @@ title: <strong>Beth Reingold</strong>
 menu: authors
 email: beth.reingold@emory.edu
 more: http://polisci.emory.edu/home/people/biography/reingold-beth.html
-navigation_weight: 1
 order: 1
 
 profile:

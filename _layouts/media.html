@@ -19,6 +19,7 @@ permalink: /media/
       {% for media in site.media %}
       <div class="row mt-3">
 
+
         <div class="col-sm-12 mt-3 mt-md-0">
             <div class="row mt-3">
                 <div class="col-sm-1 mt-3 mt-md-0">
@@ -31,6 +32,7 @@ permalink: /media/
                 </div>
             </div>
         </div>
+
         <div class="col-sm-12 mt-3 mt-md-0">
             <h3>
               <a href="{{ media.link }}">
@@ -39,23 +41,22 @@ permalink: /media/
             </h3>  
         <div>
  
-            <div class="col-sm-12 mt-3 mt-md-0">
- 
-            {{ media.date_posted }}
+            <div class="col-sm-12 mt-3 mt-md-0 font-weight-lighter font-size-small">
+                <small> {{ media.date_posted }}</small>
         </div>
 
-        <div class="col-sm-12 mt-3 mt-md-0">
+        <div class="col-sm-12 mt-3 mt-md-0 font-weight-lighter font-size-small">
 
-            {{ media.show }}
+           <small> {{ media.show }}</small>
         </div>
 
-        <div class="col-sm-12 mt-3 mt-md-0">
-
-            {{ media.byline }}
+        <div class="col-sm-12 mt-3 mt-md-0 font-weight-lighter">
+            <small> {{ media.byline }}</small>
         </div>
 
-        <div class="col-sm-12 mt-6 mt-md-0">
-            <blockquote>
+
+        <div class="col-sm-12 mt-6 mt-md-0 font-weight-bolder">
+            <blockquote class=".blockquote">
             {{ media.content | markdownify }}
             <blockquote>
         </div>

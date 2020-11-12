@@ -1,0 +1,68 @@
+---
+layout: default
+title: Media
+permalink: /media/
+---
+<div class="post">
+
+  <header class="post-header">
+    <h2 class="post-title">
+      <div class="font-weight-bold" style="text-align:center">RACE, GENDER, AND POLITICAL REPRESENTATION</div>
+    </h2>
+    <h3 class="post-title">
+    <div class="font-weight-normal" style="text-align:center">TOWARD A MORE INTERSECTIONAL APPROACH</div>
+    </h3>
+    <br/>
+  </header>
+  
+    <div>  
+      {% for media in site.media %}
+      <div class="row mt-3">
+
+        <div class="col-sm-12 mt-3 mt-md-0">
+            <div class="row mt-3">
+                <div class="col-sm-1 mt-3 mt-md-0">
+    
+                    {% if media.logo %}
+                    <img class="img-fluid z-depth-1 rounded" src="{{ media.logo}}" alt="{{ media.outlet}}"> 
+                    {% else %}
+                         {{ media.outlet }}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 mt-3 mt-md-0">
+            <h3>
+              <a href="{{ media.link }}">
+                <i>{{ media.title }}</i>
+              </a>
+            </h3>  
+        <div>
+ 
+            <div class="col-sm-12 mt-3 mt-md-0">
+ 
+            {{ media.date_posted }}
+        </div>
+
+        <div class="col-sm-12 mt-3 mt-md-0">
+
+            {{ media.show }}
+        </div>
+
+        <div class="col-sm-12 mt-3 mt-md-0">
+
+            {{ media.byline }}
+        </div>
+
+        <div class="col-sm-12 mt-6 mt-md-0">
+            <blockquote>
+            {{ media.content | markdownify }}
+            <blockquote>
+        </div>
+
+        </div>
+
+        {% endfor %}
+    </div>
+
+</div>

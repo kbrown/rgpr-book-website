@@ -1,7 +1,7 @@
 ---
 layout: about
 meny: about
-title: Home
+title: about
 permalink: /
 description: 
 navigation_weight: 1

@@ -2,8 +2,8 @@
 layout: default
 permalink: /buy/
 menu: buy
-title: Buy The Book
-description: buy
+title: buy
+description: Buy the Book
 navigation_weight: 5
 ---
 

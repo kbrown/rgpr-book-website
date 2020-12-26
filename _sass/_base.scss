@@ -112,6 +112,7 @@ a, table.table a {
     color: var(--global-text-color);
   }
   .navbar-nav .nav-item .nav-link {
+    color: $black-color;
     &:hover {
       color: var(--global-hover-color);
     }
@@ -119,7 +120,7 @@ a, table.table a {
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
       font-weight: bolder;
-      color: var(--global-theme-color);
+      color: $orange-color;
       &:hover {
         color: var(--global-hover-color);
       }
@@ -265,6 +266,7 @@ footer.sticky-bottom {
 
 .pagination .page-item.active .page-link {
   background-color: var(--global-theme-color);
+  color: $red-color;
   &:hover {
     background-color: var(--global-theme-color);
   }

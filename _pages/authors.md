@@ -1,6 +1,7 @@
 ---
 layout: authors
 menu: authors
+title: authors
 permalink: authors/
 description: 
 navigation_weight: 2

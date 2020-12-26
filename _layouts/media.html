@@ -10,60 +10,61 @@ permalink: /media/
       <div class="font-weight-bold" style="text-align:center">RACE, GENDER, AND POLITICAL REPRESENTATION</div>
     </h2>
     <h3 class="post-title">
-    <div class="font-weight-normal" style="text-align:center">TOWARD A MORE INTERSECTIONAL APPROACH</div>
+      <div class="font-weight-normal" style="text-align:center">TOWARD A MORE INTERSECTIONAL APPROACH</div>
     </h3>
-    <br/>
+    <br />
   </header>
-  
-    <div>  
-      {% for media in site.media %}
-      <div class="row mt-3">
+
+  <div>
+    {% for media in site.media %}
+    <div class="row mt-3">
 
 
-        <div class="col-sm-12 mt-3 mt-md-0">
-            <div class="row mt-3">
-                <div class="col-sm-1 mt-3 mt-md-0">
-    
-                    {% if media.logo %}
-                    <img class="img-fluid z-depth-1 rounded" src="{{ media.logo}}" alt="{{ media.outlet}}"> 
-                    {% else %}
-                         {{ media.outlet }}
-                    {% endif %}
-                </div>
-            </div>
+      <div class="col-sm-12 mt-3 mt-md-0">
+        <div class="row mt-3">
+          <div class="col-sm-3 mt-3 mt-md-0">
+
+            {% if media.logo %}
+            <img class="img-fluid z-depth-0 rounded" width="{{ media.logo_width || 100% }}" src="{{ media.logo}}"
+              alt="{{ media.outlet}}">
+            {% else %}
+            {{ media.outlet }}
+            {% endif %}
+          </div>
         </div>
+      </div>
 
-        <div class="col-sm-12 mt-3 mt-md-0">
-            <h3>
-              <a href="{{ media.link }}">
-                <i>{{ media.title }}</i>
-              </a>
-            </h3>  
+      <div class="col-sm-12 mt-3 mt-md-0">
+        <h3>
+          <a href="{{ media.link }}">
+            <i>{{ media.title }}</i>
+          </a>
+        </h3>
         <div>
- 
-            <div class="col-sm-12 mt-3 mt-md-0 font-weight-lighter font-size-small">
-                <small> {{ media.date_posted }}</small>
-        </div>
 
-        <div class="col-sm-12 mt-3 mt-md-0 font-weight-lighter font-size-small">
+          <div class="col-sm-12 mt-3 mt-md-0 font-weight-lighter font-size-small">
+            <small> {{ media.date_posted }}</small>
+          </div>
 
-           <small> {{ media.show }}</small>
-        </div>
+          <div class="col-sm-12 mt-3 mt-md-0 font-weight-lighter font-size-small">
 
-        <div class="col-sm-12 mt-3 mt-md-0 font-weight-lighter">
+            <small> {{ media.show }}</small>
+          </div>
+
+          <div class="col-sm-12 mt-3 mt-md-0 font-weight-lighter">
             <small> {{ media.byline }}</small>
-        </div>
+          </div>
 
 
-        <div class="col-sm-12 mt-6 mt-md-0 font-weight-bolder">
+          <div class="col-sm-12 mt-6 mt-md-0 font-weight-bolder">
             <blockquote class=".blockquote">
-            {{ media.content | markdownify }}
-            <blockquote>
-        </div>
+              {{ media.content | markdownify }}
+              <blockquote>
+          </div>
 
         </div>
 
         {% endfor %}
-    </div>
+      </div>
 
-</div>
+    </div>

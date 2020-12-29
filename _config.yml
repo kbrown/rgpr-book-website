@@ -7,8 +7,7 @@ title: Race, Gender, and Political Representation # the website title (if blank,
 email: ""
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Race, Gender, and Political Representation: Toward a More Intersectional Approach
-footer_text: >
-  - All Rights Reserved.
+footer_text: ""
 
 url:  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/

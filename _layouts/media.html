@@ -25,7 +25,7 @@ permalink: /media/
           <div class="col-sm-3 mt-3 mt-md-0">
 
             {% if media.logo %}
-            <img class="img-fluid z-depth-0 rounded" width="{{ media.logo_width || 100% }}" src="{{ media.logo}}"
+            <img class="img-fluid z-depth-0 rounded" width="{{ media.logo_width }}" src="{{ media.logo }}"
               alt="{{ media.outlet}}">
             {% else %}
             {{ media.outlet }}
